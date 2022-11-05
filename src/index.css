@@ -4,7 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  background-color: #000000;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -35,8 +37,11 @@ code {
   display: flex;
   justify-content: flex-start;
   margin-top: 0;
-  margin-bottom: 10%;
   float: top;
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
 }
 
 
