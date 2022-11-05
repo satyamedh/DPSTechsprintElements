@@ -1,6 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 body {
   margin: 0;
@@ -15,3 +18,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.lemonmilk{
+    font-family: 'Lemon/Milk', sans-serif;
+}
+
+.rightples {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
+}
+
+.leftples {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
+  margin-right: auto;
+  float: left;
+}
+
+
+
