@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
-import {CustomNavbar} from "./IHateNamingThings/CustomNavbar";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Bands from "./pages/bands";
+import Home from "./pages/home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <title></title> {/* TODO insert title */}
-          <link href="https://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet"></link>
-          <CustomNavbar />
-      </header>
-    </div>
+      <BrowserRouter>
+          <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/home" element={<Home/>}/>
+                <Route path="/bands" element={<Bands/>}/>
+          </Routes>
+      </BrowserRouter>
   );
 }
 

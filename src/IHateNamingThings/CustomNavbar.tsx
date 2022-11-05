@@ -5,11 +5,11 @@ export class CustomNavbar extends Component {
         render() {
                 return (
                     <ul className="bg-black top-0 absolute w-screen flex rightples nav-links">
-                            <CustomNavbarElement text="Music Fest" alignn="leftples" class="left-full" />
-                            <CustomNavbarElement text="Bands" class="absolute "/>
-                            <CustomNavbarElement text="Venue" class="absolute"/>
-                            <CustomNavbarElement text="Timings" class="absolute"/>
-                            <CustomNavbarElement text="Tickets" class="absolute"/>
+
+                        <CustomNavbarElement text="Music Fest" alignn="leftples " class="left-full" link="/" classes="text-xl"/>
+                        <CustomNavbarElement text="Bands" class="absolute" link="/bands"/>
+                        <CustomNavbarElement text="Venue" class="absolute" link="/"/>
+                        <CustomNavbarElement text="Tickets" class="absolute" link="/"/>
                     </ul>
                 )
         }
