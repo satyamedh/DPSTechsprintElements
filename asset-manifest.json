@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DPSTechsprintElements/static/css/main.ab0493ed.css",
+    "main.js": "/DPSTechsprintElements/static/js/main.131e9372.js",
+    "static/js/787.5069ac23.chunk.js": "/DPSTechsprintElements/static/js/787.5069ac23.chunk.js",
+    "static/media/banner.mp4": "/DPSTechsprintElements/static/media/banner.fa7784e4da31a6e9e53f.mp4",
+    "static/media/jcole.png": "/DPSTechsprintElements/static/media/jcole.b70f29db94e356b8ad65.png",
+    "static/media/eminem.jpg": "/DPSTechsprintElements/static/media/eminem.f6263d0b74548f8c9651.jpg",
+    "static/media/insta.png": "/DPSTechsprintElements/static/media/insta.8390b169f64b4834eb62.png",
+    "static/media/travis_scott.jpg": "/DPSTechsprintElements/static/media/travis_scott.f51ef32f110fc6b032f0.jpg",
+    "index.html": "/DPSTechsprintElements/index.html",
+    "main.ab0493ed.css.map": "/DPSTechsprintElements/static/css/main.ab0493ed.css.map",
+    "main.131e9372.js.map": "/DPSTechsprintElements/static/js/main.131e9372.js.map",
+    "787.5069ac23.chunk.js.map": "/DPSTechsprintElements/static/js/787.5069ac23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab0493ed.css",
+    "static/js/main.131e9372.js"
+  ]
+}
