@@ -1,9 +1,8 @@
 import React from 'react';
 import '../App.css';
 import {CustomNavbar} from "../IHateNamingThings/CustomNavbar";
-import workinprogress from "../media/workinprogress.png";
 
-function L404() {
+function AboutUs() {
     return (
         <div className="App">
             <header className="App-header">
@@ -12,8 +11,10 @@ function L404() {
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"></link>
                 <CustomNavbar />
 
-                <img src={workinprogress} alt=""/>
-                <h1>Uh oh! Website ends here!!</h1>
+                <ul>
+                    <li><h1><a href="mailto:jay.ramananda11@gmail.com?Subject=About%20Your%20Elements%20Submission">jay.ramananda11@gmail.com</a></h1></li>
+                    <li><h1><a href="mailto:satyamedh9@gmail.com?Subject=About%20Your%20Elements%20Submission">satyamedh9@gmail.com</a></h1></li>
+                </ul>
             </header>
 
         </div>
@@ -21,4 +22,4 @@ function L404() {
 }
 
 
-export default L404;
+export default AboutUs;

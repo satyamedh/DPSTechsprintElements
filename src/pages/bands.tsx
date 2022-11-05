@@ -10,7 +10,7 @@ function Bands() {
     return (
             <div className="App">
                 <header className="App-header">
-                    <title></title> {/* TODO insert title */}
+                    <title>The Silmaril Music Fest - Performers</title>
                     <link href="https://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet"></link>
                     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"></link>
 

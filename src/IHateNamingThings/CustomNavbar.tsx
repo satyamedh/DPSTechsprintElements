@@ -12,6 +12,8 @@ export class CustomNavbar extends Component {
                         <CustomNavbarElement text="Performers" class="absolute" link="/DPSTechsprintElements/bands"/>
                         <CustomNavbarElement text="Venue" class="absolute" link="https://goo.gl/maps/urT5orhhTBVXvqYE9"/>
                         <CustomNavbarElement text="Tickets" class="absolute" link="/DPSTechsprintElements/tickets"/>
+                        <CustomNavbarElement text="Contact us" class="absolute" link="/DPSTechsprintElements/aboutus"/>
+
                     </ul>
                 )
         }
