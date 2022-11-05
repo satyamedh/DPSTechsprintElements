@@ -44,5 +44,25 @@ code {
   font-family: 'Poppins', sans-serif;
 }
 
+.img1{
+  height: 400px;
+  margin-right: 1200px;
+}
 
+.img2{
+  width: 1000px;
+  margin-left: 500px;
+}
+
+.spotpic{
+  width: 152px;
+}
+
+.eminem{
+  background-color: #54503c;
+}
+
+.travis{
+  background-color: #dbba51;
+}
 
