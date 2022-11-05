@@ -10,10 +10,10 @@ function App() {
   return (
       <BrowserRouter>
           <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/home" element={<Home/>}/>
-                <Route path="/bands" element={<Bands/>}/>
-                <Route path="/tickets" element={<Tickets/>}/>
+                <Route path="/DPSTechsprintElements/" element={<Home/>}/>
+                <Route path="/DPSTechsprintElements/home" element={<Home/>}/>
+                <Route path="/DPSTechsprintElements/bands" element={<Bands/>}/>
+                <Route path="/DPSTechsprintElements/tickets" element={<Tickets/>}/>
                 <Route path="*" element={<L404/>}/>
           </Routes>
       </BrowserRouter>
